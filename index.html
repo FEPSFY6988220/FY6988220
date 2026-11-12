@@ -37,7 +37,60 @@
             margin-left: 50px;
             margin-right: 50px;
             line-height: 1.5;
-        }
+        } 
+     /* Article appearance */
+body {
+    font-family: Arial, sans-serif;
+    color: #263238;
+    background-color: #f7f9fc;
+    line-height: 1.7;
+}
+
+.article-content {
+    max-width: 950px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.07);
+}
+
+.article-content h3 {
+    color: #176b68;
+    border-bottom: 2px solid #d7e9e7;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+.article-content h4 {
+    color: #315c70;
+    margin-top: 25px;
+}
+
+.article-text {
+    text-align: justify;
+    margin-bottom: 18px;
+    line-height: 1.8;
+}
+
+#totalWordCount {
+    background-color: #e5f2f0;
+    color: #176b68;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 300px;
+    margin: 25px auto;
+}
+
+.article-content a {
+    color: #176b68;
+}
+
+.article-content a:hover {
+    color: #d17b35;
+}
     </style>
 </head>
 
@@ -85,56 +138,56 @@
 
     <hr>
 
+   
+<div class="article-content">
+
     <h3 id="Introduction">1. Introduction</h3>
 
-    <p class="ex1" id="Introduction_InText">
-        Healthcare inequality remains a significant challenge across rural communities in Africa. Many healthcare facilities experience shortages of medical equipment, limited access to electricity and insufficient technical support. These challenges can affect the quality and reliability of healthcare services. Biomedical engineering offers opportunities to develop technologies that respond to these difficulties. Sustainable advancements could help improve access to diagnosis, treatment and patient monitoring. This paper explores how affordable, reliable and locally maintainable biomedical technologies could contribute to reducing healthcare disparities.
+    <p class="article-text">
+        Across rural Africa, preventable illness is compounded by long distances to clinics, shortages of trained staff, and limited access to reliable diagnostic and treatment technologies. These barriers are not simply medical; they also reflect unequal infrastructure and the difficulty of sustaining services in resource-constrained settings.
+    </p>
+
+    <p class="article-text">
+        Biomedical engineering may help address these challenges by adapting devices and health technologies to local needs, strengthening maintenance and training, and supporting affordable, accessible care. However, innovation alone cannot guarantee equitable outcomes. Technologies must be appropriate to local environments and supported by skilled health workers. Research on collaboration between biomedical and electrical engineering highlights opportunities to translate technical advances into practical solutions, while also identifying implementation challenges in settings such as Nigeria (Onuh et al., 2024). Similarly, analysis of biomedical engineering capacity in East Africa identifies gaps in skills, resources, and regulation that constrain medical-device use (Raxworthy and Ssekitoleko, 2022). This article examines whether sustainable biomedical advances can reduce rural health disparities, and the conditions needed for them to do so equitably.
     </p>
 
     <h3 id="Analysis">2. Analysis and Discussion</h3>
 
-    <h4>2.1 Affordable Diagnostic Equipment</h4>
+    <h4>2.1 Rural Health Disparities and Healthcare Needs</h4>
 
-    <p class="ex1" id="AnalysisandDiscussion_InText">
-        Affordable diagnostic equipment can help healthcare facilities identify illnesses earlier and improve patient outcomes. Portable devices such as blood pressure monitors, glucose meters and point-of-care testing equipment can provide essential information without requiring large hospital laboratories. However, these technologies must be affordable, reliable and suitable for the environments in which they are used. Equipment that is difficult to repair or requires expensive replacement parts may not be sustainable in rural settings.
+    <p class="article-text">
+        Rural health disparities refer to systematic differences in access to timely, affordable, and effective health services, as well as in health outcomes, between rural and urban populations. In many rural African communities, preventable and treatable conditions are made more difficult by limited diagnostic and treatment infrastructure, shortages of health professionals, and the challenge of maintaining services across remote areas. These factors can contribute to delayed diagnosis, reduced access to treatment, and poorer health outcomes (Strasser et al., 2015).
     </p>
 
-    <h4>2.2 Solar-Powered Medical Equipment</h4>
+    <h4>2.2 Infrastructure, Workforce and Geographic Barriers</h4>
 
-    <p class="ex1">
-        Unreliable electricity supply can prevent healthcare facilities from operating essential medical equipment. Solar-powered systems offer a potential solution by providing an alternative source of energy. They can support equipment such as vaccine refrigerators, lighting systems and diagnostic devices. Battery storage can also help maintain power during periods when sunlight is unavailable. These technologies could improve the reliability of healthcare services in communities with limited electricity infrastructure.
+    <p class="article-text">
+        The barriers are interconnected. Long travel distances and geographic isolation can make visits to clinics and specialist services expensive and time-consuming. Weak roads and limited internet access can disrupt referrals and access to information, while unreliable electricity can prevent facilities from operating essential equipment. Shortages of clinicians and biomedical technicians restrict both care delivery and device maintenance. Even where equipment is available, high purchase and operating costs can place it beyond the reach of underfunded facilities. Together, these constraints widen the gap between medical need and effective treatment.
     </p>
 
-    <h4>2.3 Local Maintenance and Sustainability</h4>
+    <h4>2.3 Sustainable Biomedical Engineering as a Response</h4>
 
-    <p class="ex1">
-        Sustainable biomedical engineering requires more than simply providing medical equipment. Healthcare workers and local technicians need appropriate training to operate, maintain and repair devices. Designing equipment with accessible components and readily available replacement parts could reduce maintenance costs and equipment downtime. Involving local communities in the development and implementation of technologies may also help ensure that solutions respond to actual healthcare needs.
+    <p class="article-text">
+        Sustainable biomedical engineering offers a potential response by developing and supporting medical technologies suited to local needs and operating conditions. Rather than relying on imported devices that may be difficult to repair, this approach prioritises affordability, durability, and local maintenance. Collaboration between biomedical and electrical engineers can help adapt diagnostic and treatment tools to the infrastructure available in rural settings. However, the potential of medical devices also depends on strengthening health workers’ capacity and addressing gaps in engineering skills, resources, and regulation (Onuh et al., 2024; Raxworthy and Ssekitoleko, 2022). Sustainable progress therefore requires more than supplying equipment: it requires training, repair networks, appropriate oversight, and community-informed design.
     </p>
 
-    <table>
-        <tr>
-            <th>Technology</th>
-            <th>Potential Benefit</th>
-            <th>Challenge</th>
-        </tr>
-        <tr>
-            <td>Portable diagnostic devices</td>
-            <td>Improved access to testing</td>
-            <td>Cost and availability</td>
-        </tr>
-        <tr>
-            <td>Solar-powered equipment</td>
-            <td>More reliable electricity</td>
-            <td>Installation and maintenance</td>
-        </tr>
-        <tr>
-            <td>Locally repairable devices</td>
-            <td>Reduced equipment downtime</td>
-            <td>Technical training</td>
-        </tr>
-    </table>
+    <h4>2.4 Affordable Technologies and Implementation Challenges</h4>
 
-    <hr>
+    <p class="article-text">
+        Affordable point-of-care diagnostic tools can support earlier detection of illness and reduce dependence on distant laboratories. Portable devices, when clinically appropriate and properly maintained, may allow some tests to be carried out closer to patients. Repairable medical devices can also reduce equipment downtime, particularly when replacement parts and technical support are locally available. In clinics with unreliable electricity, solar-powered systems may provide energy for lighting, refrigeration, and selected medical equipment. These technologies could reduce delays and help extend services to underserved communities.
+    </p>
+
+    <p class="article-text">
+        However, their benefits are not automatic. Devices must be clinically validated, suitable for local conditions, and affordable to purchase and operate. Implementation also requires training for health workers and local technicians, reliable supply chains for parts, appropriate financing, and regulatory oversight. Research on Nigeria emphasises the need to connect engineering innovation with practical implementation and policy frameworks (Onuh et al., 2024), while evidence from East Africa highlights gaps in technical skills, resources, and regulation that constrain medical-device deployment (Raxworthy and Ssekitoleko, 2022). Designing technologies with local users and maintenance capacity in mind can make them more durable, equitable, and responsive to rural needs.
+    </p>
+
+    <h3 id="Conclusion">3. Conclusion</h3>
+
+    <p class="article-text">
+        Sustainable biomedical engineering can help narrow rural Africa’s health disparities, but technology alone cannot resolve inequities rooted in limited infrastructure, workforce shortages, and uneven access to care. Its contribution depends on designing affordable, durable devices for local conditions and building the skills, maintenance systems, and regulatory frameworks needed to support them. Collaboration across biomedical and electrical engineering can help translate research into accessible healthcare solutions, while strengthening regional capacity can address gaps in skills, resources, and regulation (Onuh et al., 2024; Raxworthy and Ssekitoleko, 2022). Community partnership is also essential: initiatives should respond to local priorities and involve local partners in implementation and evaluation. The ACCESS model emphasises needs-led collaboration in this process (Kalyesubula et al., 2023). Lasting progress therefore depends on combining engineering innovation with local ownership, institutional support, and sustained investment.
+    </p>
+
+</div>
 
     <h3 id="Conclusion">3. Conclusion</h3>
 
@@ -225,44 +278,40 @@
         document.addEventListener('DOMContentLoaded', getLastUpdatedTime);
     </script>
 
-    <!-- Word Count -->
+ 
+<!-- Word Count -->
 
-    <hr>
+<hr>
 
-    <p id="totalWordCount">Calculating word count...</p>
+<p id="totalWordCount">Calculating word count...</p>
 
-    <script>
-        function displayTotalWordCount() {
+<script>
+    function displayTotalWordCount() {
 
-            const sectionIds = [
-                "Abstract_InText",
-                "Introduction_InText",
-                "AnalysisandDiscussion_InText",
-                "Conclusion_InText"
-            ];
+        const paragraphs = document.querySelectorAll(".article-text");
 
-            let totalWordCount = 0;
+        let totalWordCount = 0;
 
-            sectionIds.forEach(function(sectionId) {
+        paragraphs.forEach(function(paragraph) {
 
-                const section = document.getElementById(sectionId);
+            const text = paragraph.innerText.trim();
 
-                if (section) {
-                    const text = section.innerText.trim();
+            if (text !== "") {
+                totalWordCount += text.split(/\s+/).length;
+            }
 
-                    if (text.length > 0) {
-                        totalWordCount += text.split(/\s+/).length;
-                    }
-                }
-            });
+        });
 
-            document.getElementById("totalWordCount").innerText =
-                "Total word count: " + totalWordCount;
-        }
+        document.getElementById("totalWordCount").innerText =
+            "Article Word Count: " + totalWordCount;
+    }
 
-        document.addEventListener('DOMContentLoaded', displayTotalWordCount);
-    </script>
-
+    document.addEventListener(
+        "DOMContentLoaded",
+        displayTotalWordCount
+    );
+</script>
 </body>
 </html>
 
+   
